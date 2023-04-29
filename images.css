@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img{
+	border: 2px solid yellow;
+}
+
+
+.container {
+	max-width: 1000px;
+	margin:auto;
+	overflow: auto;
+	
+}
+.gallery {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 390px;
+  
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 10px;
+  text-align: center;
+  color: darkblue
+}
